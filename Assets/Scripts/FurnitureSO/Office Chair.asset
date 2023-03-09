@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Office Chair
   m_EditorClassIdentifier: 
   furnitureName: Office Chair
-  furnitureImage: {fileID: 21300000, guid: 14494cb558ea5ce41bae7ddab5d0bce9, type: 3}
-  furnitureModel: {fileID: 7303075577739646425, guid: dd96f6f550263be4a99ee29eb4294dd3,
+  furnitureImage: {fileID: 21300000, guid: cd8535ca6553353469c46f08ad917a64, type: 3}
+  furnitureModel: {fileID: 4037648424274944840, guid: d7bd3915f647784409dbeb778112dc91,
     type: 3}
-  furnitureId: 0
+  furnitureId: 4

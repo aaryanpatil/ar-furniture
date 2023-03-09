@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd42f8ac98c55a408965049c127ad7e, type: 3}
+  m_Name: 3 Seater Green Sofa
+  m_EditorClassIdentifier: 
+  furnitureName: 3 Seater Green Sofa
+  furnitureImage: {fileID: 21300000, guid: 03d012c5db0d22348ba90013ce3b7269, type: 3}
+  furnitureModel: {fileID: 2286732144840485021, guid: b77faac9cd0e23e4abaf2f5d5d1bca6f,
+    type: 3}
+  furnitureId: 2
