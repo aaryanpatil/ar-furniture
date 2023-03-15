@@ -55,7 +55,7 @@ public class Spawner : MonoBehaviour
         aRPlaneManager = GetComponent<ARPlaneManager>();
         panelOpener = FindObjectOfType<PanelOpener>();
         canvasHitDetector = FindObjectOfType<CanvasHitDetector>();
-        objectID = 0;
+        objectID = -99;
         doRotateObject = false;
     }
 
@@ -87,6 +87,7 @@ public class Spawner : MonoBehaviour
 
     void PlaceObject()
     {
+        if(objectID == -99) { return; }
         if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)) return;
@@ -109,6 +110,16 @@ public class Spawner : MonoBehaviour
 
         }
     }
+
+    public void RemoveFurniture()
+    {
+        if (spawnedObj == null) { return; }
+        else
+        {
+            Destroy(spawnedObj);
+        }
+    }
+    
     //Placement Logic
     // private void FingerDown(EnhancedTouch.Finger finger)
     // {
